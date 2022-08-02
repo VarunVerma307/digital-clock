@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 100vh;
+    width: 100wh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-family: Great Vibes;
+    font-size: 3.5rem;
+    padding: 15px;
+}
+.container #clock{
+    font-size: 40px;
+}
